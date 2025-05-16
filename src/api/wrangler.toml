@@ -1,0 +1,15 @@
+name = "api"
+main = "src/index.ts"
+compatibility_date = "2025-05-14"
+
+[assets]
+binding = "ASSETS"
+directory = "./public"
+
+[observability]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "todomoro-db"
+database_id = "d703422d-5a8c-40c5-8bac-573cabed9d6c"
