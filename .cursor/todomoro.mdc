@@ -1,0 +1,88 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# todomoro
+
+## 🚀 Pitch
+
+**todomoro** is a next-generation productivity app designed for makers, students, indie hackers, and anyone who wants to organize their life and boost their efficiency—without friction.
+
+---
+
+## ✨ Key Features
+
+- **Ultra-flexible projects, lists, and items**
+  - Create projects (e.g., “My SaaS 2025”, “Personal Life”)
+  - Add lists inside each project (todos, movies to watch, shopping, ideas, etc.)
+  - Add items to each list (tasks, movies, groceries, anything)
+
+- **Insanely good user experience**
+  - Everything on a single screen, ultra-fast navigation
+  - Native keyboard shortcuts (web, macOS, iOS)
+  - Inline editing, drag & drop, instant feedback
+
+- **Built-in Pomodoro**
+  - Timer attachable to any item
+  - Native notifications
+  - Focus statistics
+
+- **Sharing & Collaboration**
+  - Share lists or projects via link
+  - Read/edit permissions (premium)
+  - Perfect for collaboration or inspiration
+
+- **Artificial Intelligence**
+  - Generate lists or tasks from a prompt
+  - Automatic list summarization
+  - Personalized suggestions (premium)
+
+- **Advanced Analytics (premium)**
+  - Productivity, focus, and completion stats
+  - Visual dashboards (streaks, heatmaps, etc.)
+  - CSV/JSON export
+
+- **Freemium monetization**
+  - Free: 1 project, 3 lists, core features
+  - Premium: unlimited everything, sharing, AI, analytics, priority support
+
+- **Cross-platform**
+  - Web (PWA)
+  - iOS & macOS (via Capacitor)
+  - Cloud sync
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + TypeScript + Vite
+- **Backend:** Hono.js (Cloudflare Workers)
+- **Database:** Cloudflare D1 (serverless SQLite)
+- **Deployment:** Cloudflare Pages/Workers
+- **Mobile/Desktop:** Capacitor
+- **Auth & Payments:** Magic link, Stripe
+
+---
+
+## 🎯 Why todomoro?
+
+- **Ultra-fast, frictionless, all-in-one**
+- **Flexible:** todos, movies, shopping, ideas—anything is possible
+- **Indie hacker friendly:** MVP-first, premium UX, modern stack, built to be profitable
+- **Scalable:** ready for sharing, collaboration, AI, analytics
+
+---
+
+## 👀 Who is it for?
+
+- Makers, developers, students, freelancers, agile teams, families, movie lovers, and more
+- Anyone who wants to organize, share, and get things done—without wasting time
+
+---
+
+## 💡 In short
+
+> **todomoro is frictionless productivity, total flexibility, and the power of AI in a beautiful, cross-platform, profitable app.**
+
+---
