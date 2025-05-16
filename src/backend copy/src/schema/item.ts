@@ -14,7 +14,7 @@ export const itemSchema = z.object({
   project_id: z.string().uuid().nullable().optional().default(null),
   list_id: z.string().uuid().nullable().optional().default(null),
   completed: z.boolean().optional().default(false),
-  // number().min(0).max(1).optional().default(0),
+  // completed: number().min(0).max(1).optional().default(0),
 });
 
 export type Item = z.infer<typeof itemSchema>;
