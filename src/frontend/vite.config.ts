@@ -3,9 +3,14 @@ import react from "@vitejs/plugin-react-swc";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-// https://vite.dev/config/
+import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
+
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss(),
+    TanStackRouterVite({ target: "solid", autoCodeSplitting: true }),
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
